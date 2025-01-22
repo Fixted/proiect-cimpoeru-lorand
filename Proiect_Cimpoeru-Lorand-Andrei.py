@@ -9,7 +9,7 @@ import random
 print("Bun venit la ghicitoarea mea de cuvinte")
 
 
-words = ["caine", "autobuz", "automat", "programare", "copil"
+words = ["caine", "autobuz", "automat", "programare", "copil",
         "rezonabil", "python", "vandut"]
 
 word = random.choice(words)
@@ -27,7 +27,7 @@ while turns > 0:
             print(char, end=" ")
             
         else:
-            print("_")
+            print("_", end=" ")
             failed += 1
             
     if failed == 0:
