@@ -17,7 +17,7 @@ word = random.choice(words)
 print("Ghiceste caracterele din cuvant")
 
 guesses = ''
-turns = 12
+turns = 10
 
 while turns > 0:
     
