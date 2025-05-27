@@ -4,7 +4,7 @@
 
 int main() {
     int numar_secret, incercare, numar_incercari = 0;
-// Number Guesser between
+// Number Guesser 
 
     srand(time(0));
     numar_secret = rand() % 100 + 1;
